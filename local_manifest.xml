@@ -9,7 +9,7 @@
 
         <!-- Remove some projects -->
         <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-   
+        <remove-project name="device/generic/qemu" />
 <!-- device trees -->
 
         <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="14-udc" clone-depth="1" />
