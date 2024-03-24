@@ -8,7 +8,7 @@
                 fetch="https://github.com/shravansayz" />  
 
         <remote name="clang"
-                fetch="https://gitgud.io/Shravansayz" />
+                fetch="https://gitlab.com/LeCmnGend" />
    
 <!-- device trees -->
 
@@ -17,5 +17,5 @@
         <project path="kernel/realme/sdm710" name="kernel_realme_sdm710" remote="shravansayz" revision="14" clone-depth="1" />
       
 <!-- Extras -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang" remote="clang" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang.git" remote="clang" revision="clang-16" clone-depth="1" />
 </manifest>
