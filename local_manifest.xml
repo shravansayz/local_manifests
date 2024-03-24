@@ -11,8 +11,6 @@
                 fetch="https://gitlab.com/LeCmnGend" />
        
         
-                fetch="https://github.com/LineageOS" />
-
         <!-- device trees -->
 
         <remove-project name="platform/prebuilts/clang/host/linux-x86" />
