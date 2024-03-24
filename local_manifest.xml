@@ -9,8 +9,11 @@
 
         <remote name="clang"
                 fetch="https://gitlab.com/LeCmnGend" />
-   
-<!-- device trees -->
+       
+        
+                fetch="https://github.com/LineageOS" />
+
+        <!-- device trees -->
 
         <remove-project name="prebuilts/clang/host/linux-x86" />
         <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="apollo" clone-depth="1" />
