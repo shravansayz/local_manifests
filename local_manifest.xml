@@ -12,7 +12,10 @@
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/sdm710" name="Shravan55555/msm49" remote="ghub" revision="test" />
-
+     
+ <!-- ViPER -->       
+ <project path="packages/apps/ViPER4AndroidFX" name="shravansayz/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
+	
  <!-- Extras -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="shravansayz/clang-proton" remote="ghub" revision="proton" clone-depth="1" />
 </manifest>
