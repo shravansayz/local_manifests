@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+        <remote  name="ghub"
+                fetch="https://github.com" />
+		
 
-<!-- fetching sources -->      
+ <!-- Device Trees -->
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="infinity" />
+	
+ <!-- Vendor Trees -->
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" />
+	
+ <!-- Kernel Trees-->
+ <project path="kernel/realme/sdm710" name="Shravan55555/msm49" remote="ghub" revision="test" />
 
-        <remote name="shravansayz"
-                fetch="https://github.com/shravansayz" />  
-
-  
-        
-   
-<!-- device trees -->
-
-        <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="14-udc" clone-depth="1" />
-        <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="shravansayz" revision="14" clone-depth="1" />
-        <project path="kernel/realme/sdm710" name="kernel_realme_sdm710" remote="shravansayz" revision="14" clone-depth="1" />
-      
-<!-- Extras -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="shravansayz" revision="proton" clone-depth="1" />
+ <!-- Extras -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="shravansayz/clang-proton" remote="ghub" revision="proton" clone-depth="1" />
 </manifest>
