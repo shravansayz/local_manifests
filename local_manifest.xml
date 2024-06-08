@@ -17,7 +17,7 @@
         <project path="kernel/realme/sdm710" name="android_kernel_realme_RMX1901_RUI2" remote="shravansayz" revision="fourteen" clone-depth="1" />
        
  <!-- sign_keys -->
-        <project path="vendor/lineage-priv" name="private_keys" remote="shravansayz" revision="rise" />
+        <project path="vendor/lineage-priv" name="private_keys" remote="shravansayz" revision="rise" clone-depth="1" />
 
 <!-- Extras -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="shravansayz" revision="proton" clone-depth="1" />
