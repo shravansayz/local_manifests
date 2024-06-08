@@ -18,8 +18,4 @@
       
 <!-- Extras -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="shravansayz" revision="proton" clone-depth="1" />
-
-<!-- signing keys -->
-        <project path="vendor/lineage-priv" name="private_keys" remote="shravansayz" revision="rise" />
-
 </manifest>
