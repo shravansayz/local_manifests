@@ -15,7 +15,7 @@
 
         <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="evox" clone-depth="1" />
         <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="shravansayz" revision="14" clone-depth="1" />
-        <project path="kernel/realme/sdm710" name="android_kernel_realme_sdm710" remote="shravansayz" revision="14" clone-depth="1" />
+        <project path="kernel/realme/sdm710" name="android_kernel_realme_sdm710" remote="israfil" revision="14" clone-depth="1" />
        
  <!-- sign_keys -->
         <project path="vendor/evolution-priv" name="signing_keys" remote="shravansayz" revision="evox" clone-depth="1" />
