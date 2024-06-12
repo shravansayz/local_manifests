@@ -20,6 +20,9 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base_pos" remote="shravansayz" revision="fourteen" clone-depth="1" />     
 
+<!-- sign_keys -->
+        <project path="vendor/aosp/signing" name="test_keys" remote="shravansayz" revision="main" clone-depth="1" />
+        
 <!-- Extras -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="shravansayz" revision="proton" clone-depth="1" />
 </manifest>
