@@ -14,7 +14,7 @@
 
         <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="pixel" clone-depth="1" />
         <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="shravansayz" revision="14" clone-depth="1" />
-        <project path="kernel/realme/sdm710" name="android_kernel_realme_RMX1901_RUI2" remote="shravansayz" revision="fourteen" clone-depth="1" />
+        <project path="kernel/realme/sdm710" name="kernel_realme_sdm710" remote="shravansayz" revision="14" clone-depth="1" />
 
 <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="shravansayz" revision="proton" clone-depth="1" />
