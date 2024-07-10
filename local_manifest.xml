@@ -16,13 +16,4 @@
 
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
-
-<!-- frameworks_base -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="kaderbava/frameworks_base_derp" remote="ghub" revision="14-qpr3" clone-depth="1" />
-
-
-<!-- sign_keys -->
- <project path="vendor/derp/signing" name="shravansayz/derp_keys" remote="ghub" revision="main" />
- 
 </manifest>
