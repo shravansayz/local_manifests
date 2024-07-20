@@ -15,9 +15,4 @@
 <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
-<!-- hardware_interfaces -->
- <remove-project name="hardware_interfaces" />
- <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="ghub" revision="lineage-21.0" clone-depth="1" />
-	
- 
 </manifest>
