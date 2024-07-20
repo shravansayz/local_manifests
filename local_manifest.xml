@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+        <remote  name="ghub"
+                fetch="https://github.com" />
 
-<!-- fetching sources -->      
+<!-- Device Trees --> 
+  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="pixelpro" />
+	
+ <!-- Vendor Trees -->
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" clone-depth="1" />
+	
+ <!-- Kernel Trees-->
+ <project path="kernel/realme/sdm710" name="shravansayz/kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
 
-        <remote name="shravansayz"
-                fetch="https://github.com/shravansayz" />  
+<!-- Proton clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
-  
-        
-   
-<!-- device trees -->
+<!-- frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base_pixelpro" remote="ghub" revision="fourteen-qpr3" clone-depth="1" />
 
-        <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="rising" clone-depth="1" />
-        <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="shravansayz" revision="14" clone-depth="1" />
-        <project path="kernel/realme/sdm710" name="kernel_realme_sdm710" remote="shravansayz" revision="14" clone-depth="1" />
-
-<!-- Extras -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="shravansayz" revision="proton" clone-depth="1" />
+<!-- hardware_interfaces -->
+ <remove-project name="hardware_interfaces" />
+ <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="ghub" revision="lineage-21.0" clone-depth="1" />
+	
+ 
 </manifest>
