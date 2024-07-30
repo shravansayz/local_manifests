@@ -3,7 +3,7 @@
         <remote  name="ghub"
                 fetch="https://github.com" />
 <!-- Device Trees --> 
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="pixelpro" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="pixelpro" clone-depth="1" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" clone-depth="1" />
@@ -17,6 +17,6 @@
  <project path="frameworks/base" name="shravansayz/frameworks_base_pixelstar" remote="ghub" revision="14-qpr3" clone-depth="1" />
 
 <!-- sign_keys -->
- <project path="vendor/pixelstar/signing" name="shravansayz/private_keys" remote="ghub" revision="pixelpro" />
+ <project path="vendor/pixelstar/signing" name="shravansayz/private_keys" remote="ghub" revision="pixelpro"  clone-depth="1" />
 
 </manifest>
