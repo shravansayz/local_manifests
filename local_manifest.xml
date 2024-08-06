@@ -20,7 +20,5 @@
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="shravansayz/frameworks_base_pos" remote="ghub" revision="fourteen" clone-depth="1" />
 
-<!-- sign_keys -->
- <project path="vendor/aosp/signing" name="shravansayz/private_keys" remote="ghub" revision="pixelpro" />
  
 </manifest>
