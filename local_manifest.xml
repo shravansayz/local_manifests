@@ -19,5 +19,12 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
-	
+ <!-- framework_base-->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base_yaap" remote="ghub" revision="fourteen" clone-depth="1" />	
+
+ <!-- hardware_interfaces -->
+ <remove-project name="hardware_interfaces" />
+ <project path="hardware/interfaces" name="shravansayz/hardware_interfaces_yaap" remote="ghub" revision="fourteen" clone-depth="1" />
+
 </manifest>
