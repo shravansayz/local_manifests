@@ -27,4 +27,7 @@
  <remove-project name="hardware_interfaces" />
  <project path="hardware/interfaces" name="shravansayz/hardware_interfaces_yaap" remote="ghub" revision="fourteen" clone-depth="1" />
 
+ <!-- sign_keys -->
+ <project path="vendor/yaap/signing" name="shravansayz/private_keys" remote="ghub" revision="yaap" />
+
 </manifest>
