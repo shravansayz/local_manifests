@@ -19,7 +19,4 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
- <!-- customs -->
- <remove-project name="android_vendor_lineage" />
- <project path="vendor/lineage" name="shravansayz/android_vendor_lineage_matrix" remote="ghub" revision="14.0" clone-depth="1" />
 </manifest>
