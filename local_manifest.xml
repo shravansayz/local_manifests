@@ -19,11 +19,4 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
-<!-- framework_base-->
- <remove-project name="android_frameworks_base" />
- <project path="frameworks/base" name="shravansayz/android_frameworks_base_matrix" remote="ghub" revision="14.0" clone-depth="1" />
-
-<!-- sign_keys -->
- <project path="vendor/lineage-priv" name="shravansayz/private_keys" remote="ghub" revision="mat" />
-
 </manifest>
