@@ -5,7 +5,7 @@
 
 
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_RUI2" remote="ghub" revision="14-orion" />
+  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_RUI2" remote="ghub" revision="14-ext" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" clone-depth="1" />
