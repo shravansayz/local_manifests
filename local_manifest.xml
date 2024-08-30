@@ -18,5 +18,11 @@
 
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
+ 
+ <!-- framework_base-->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="sksayz5/frameworks_base_Los" remote="ghub" revision="main" clone-depth="1" />
 
+ 
+ <project path="vendor/lineage-priv" name="shravansayz/private_keys" remote="ghub" revision="rise" clone-depth="1" />
 </manifest>
