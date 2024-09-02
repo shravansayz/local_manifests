@@ -2,7 +2,9 @@
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com" />
-
+        
+	<remote  name="gtea"
+                fetch="https://gitea.com" />
 
 <!-- Device Trees --> 
   <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_RUI2" remote="ghub" revision="14-ext" />
@@ -21,8 +23,8 @@
  
  <!-- framework_base-->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="sksayz5/frameworks_base_Los" remote="ghub" revision="main" clone-depth="1" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base" remote="gtea" revision="main" clone-depth="1" />
 
- 
+ <!-- signing keys-->
  <project path="vendor/lineage-priv" name="shravansayz/private_keys" remote="ghub" revision="rise" clone-depth="1" />
-</manifest>
+ </manifest>
