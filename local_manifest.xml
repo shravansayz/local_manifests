@@ -23,6 +23,6 @@
  
  <!-- framework_base-->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="shravansayz/frameworks_base" remote="gtea" revision="main" clone-depth="1" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base" remote="gtea" revision="14R" clone-depth="1" />
 
  </manifest>
