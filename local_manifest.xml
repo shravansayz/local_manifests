@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+        <remote  name="ghub"
+                fetch="https://github.com" />
 
-<!-- fetching sources -->      
 
-        <remote name="shravansayz"
-                fetch="https://github.com/shravansayz" />  
+<!-- Device Trees --> 
+  <project path="device/realme/RMX1901" name="sksayz5/device_realme_RMX1901_RUI2" remote="ghub" revision="test" />
+	
+ <!-- Vendor Trees -->
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" clone-depth="1" />
+	
+ <!-- Kernel Trees-->
+ <project path="kernel/realme/sdm710" name="user-why-red/android_kernel_realme_sdm710_49" remote="ghub" revision="stable-release" clone-depth="1" />
 
-  
-        
-   
-<!-- device trees -->
+<!-- Proton clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
+ 
 
-        <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="blaze" clone-depth="1" />
-        <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="shravansayz" revision="14" clone-depth="1" />
-        <project path="kernel/realme/sdm710" name="kernel_realme_sdm710" remote="shravansayz" revision="14" clone-depth="1" />
-<!-- sign_keys -->
-        <project path="vendor/blaze/signing" name="test_keys" remote="shravansayz" revision="blaze" clone-depth="1" />
-
-<!-- Extras -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="shravansayz" revision="proton" clone-depth="1" />
+	
 </manifest>
