@@ -20,12 +20,4 @@
  <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
 
- <!-- frameworks_base -->
- <remove-project name="AfterlifeOS/prebuilts_sdk" />
- <project path="prebuilts/sdk" name="AfterlifeOS/prebuilts_sdk" remote="gtea" revision="14" clone-depth="1" />
-
- <!-- frameworks_base -->
- <remove-project name="AfterlifeOS/system_core" />
- <project path="system/core" name="AfterlifeOS/system_core" remote="ghub" revision="14" clone-depth="1" />
- 
 </manifest>
