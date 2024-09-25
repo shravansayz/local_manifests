@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
         
  <!-- Device Trees --> 
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_RUI2" remote="ghub" revision="15-alpha" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_RUI2" remote="ghub" revision="blaze" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" clone-depth="1" />
@@ -15,5 +15,11 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
 
-	
+<!-- packages_modules_Connectivity -->
+ <remove-project name="packages_modules_Connectivity" />
+ <project path="packages/modules/Connectivity" name="kaderbava/android_packages_modules_Connectivity" remote="ghub" revision="lineage-22.0" />
+
+ <!-- android_system_netd -->
+ <remove-project name="platform/system/netd" />
+ <project path="system/netd" name="kaderbava/android_system_netd" remote="ghub" revision="lineage-22.0" />	
 </manifest>
