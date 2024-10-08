@@ -9,7 +9,7 @@
  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_RUI2" remote="ghub" revision="derp-15-alpha" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="15" clone-depth="1" />
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="glab" revision="15" clone-depth="1" />
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/sdm710" name="shravansayz/kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
