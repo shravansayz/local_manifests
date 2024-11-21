@@ -7,13 +7,13 @@
                 fetch="https://gitea.com" />
 
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_RUI2" remote="ghub" revision="14-ext" />
+  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="14-ext" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" clone-depth="1" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/sdm710" name="shravansayz/kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
+ <project path="kernel/realme/sdm710" name="shravansayz/kernel_realme_sdm710_49" remote="ghub" revision="stable-release" clone-depth="1" />
 
 <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
@@ -23,6 +23,6 @@
  
  <!-- framework_base-->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="shravansayz/frameworks_base_los" remote="gtea" revision="lineage-21.0" clone-depth="1" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base_los" remote="gtea" revision="14" clone-depth="1" />
 
  </manifest>
