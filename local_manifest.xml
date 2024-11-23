@@ -24,5 +24,9 @@
  <!-- framework_base-->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="shravansayz/frameworks_base_los" remote="gtea" revision="14" clone-depth="1" />
+ 
+ <!-- framework_base-->
+ <remove-project name="android_frameworks_native" />
+ <project path="frameworks/native" name="shravansayz/android_frameworks_native" remote="ghub" revision="14" clone-depth="1" />
 
- </manifest>
+</manifest>
