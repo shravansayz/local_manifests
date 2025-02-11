@@ -28,4 +28,4 @@
  <!-- sign_keys -->
  <project path="vendor/aosp/signing" name="shravansayz/private_keys" remote="ghub" revision="pixel" />
 
-</manifest>
+ </manifest>
