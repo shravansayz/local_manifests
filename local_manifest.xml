@@ -20,10 +20,6 @@
  <!-- frameworks_base -->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="shravansayz/frameworks_base_pos" remote="ghub" revision="fifteen" clone-depth="1" />
- 
-  <!-- Packages_settings -->
- <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="shravansayz/packages_apps_Settings_pixel" remote="ghub" revision="fifteen" clone-depth="1" />
 	
  <!-- sign_keys -->
  <project path="vendor/aosp/signing" name="shravansayz/private_keys" remote="ghub" revision="pixel" />
