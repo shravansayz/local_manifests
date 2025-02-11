@@ -23,7 +23,7 @@
 	
  <!-- Updater -->
  <remove-project name="packages_apps_Updater" />
- <project path="packages/apps/Updater" name="shravansayz/packages_apps_Updater" remote="ghub" revision="fifteen" clone-depth=1" /> 
+ <project path="packages/apps/Updater" name="shravansayz/packages_apps_Updater" remote="ghub" revision="fifteen" clone-depth="1" />
   
  <!-- sign_keys -->
  <project path="vendor/aosp/signing" name="shravansayz/private_keys" remote="ghub" revision="pixel" />
