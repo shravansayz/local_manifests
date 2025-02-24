@@ -17,6 +17,10 @@
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
  
+ <!-- vendor_addons -->
+ <remove-project name="vendor_addons" />
+ <project path="vendor/addons" name="shravansayz/vendor_addons" remote="ghub" revision="vic" clone-depth="1" />
+
  <!-- sign_keys -->
  <project path="vendor/orion-priv" name="shravansayz/private_keys" remote="ghub" revision="orion" />
 </manifest>
