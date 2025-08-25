@@ -21,7 +21,7 @@
  <project path="vendor/lineage/signing" name="shravansayz/private_keys" remote="ghub" revision="rise" />
  
  <!-- android_hardware_qcom_audio -->
- <remove-project name="LineageOS/android_lineage-sdk" />
+ <remove-project name="android_lineage-sdk" />
  <project path="lineage-sdk" name="shravansayz/android_lineage-sdk" remote="ghub" revision="16" />	
  
  <!-- android_hardware_qcom_audio -->
