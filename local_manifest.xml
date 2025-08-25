@@ -18,7 +18,7 @@
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
  
  <!-- sign_keys -->
- <project path="vendor/lineage-priv" name="shravansayz/private_keys" remote="ghub" revision="rise" />
+ <project path="vendor/lineage/signing" name="shravansayz/private_keys" remote="ghub" revision="rise" />
 
  <!-- android_hardware_qcom_audio -->
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
