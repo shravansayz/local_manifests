@@ -6,7 +6,7 @@
                 fetch="https://gitlab.com" />
  
  <!-- Device Trees --> 
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_" remote="ghub" revision="axion" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_" remote="ghub" revision="derp" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901_" remote="ghub" revision="16" clone-depth="1" />
