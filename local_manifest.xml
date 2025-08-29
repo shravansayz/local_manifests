@@ -6,18 +6,37 @@
                 fetch="https://gitlab.com" />
  
  <!-- Device Trees --> 
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="clo" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_" remote="ghub" revision="luna16" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901_15" remote="glab" revision="15" clone-depth="1" />
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901_" remote="ghub" revision="16" clone-depth="1" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/sdm710" name="shravansayz/kernel_realme_sdm710" remote="ghub" revision="15" clone-depth="1" />
+ <project path="kernel/realme/sdm710" name="shravansayz/android_kernel_realme_sdm710_" remote="ghub" revision="16.0" clone-depth="1" />
 
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
-	
- <!-- sign_keys -->
- <project path="vendor/clover-priv" name="shravansayz/private_keys" remote="ghub" revision="clo" />
+
+ <!-- packages_modules_Connectivity -->
+<remove-project name="android_packages_modules_Connectivity" />
+<project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
+
+<!-- system_netd -->
+<remove-project name="system_netd" />
+<project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
+
+ <!-- system_bpf -->
+<remove-project name="system_bpf" />
+<project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
+
+<!-- device_qcom_sepolicy_vndr -->
+<remove-project name="android_device_qcom_sepolicy_vndr" />
+<project path="device/qcom/sepolicy_vndr/legacy-um" name="shravansayz/android_device_qcom_sepolicy_vndr" remote="ghub" revision="bka-legacy-um" />
+ 	
+ <!-- android_hardware_qcom_audio -->
+ <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ <project path="hardware/qcom-caf/sdm845/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sdm845" />
+ <project path="hardware/qcom-caf/sm8350/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sm8350" />
+
 
 </manifest>
