@@ -6,7 +6,7 @@
                 fetch="https://gitlab.com" />
  
  <!-- Device Trees --> 
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_" remote="ghub" revision="luna16" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_" remote="ghub" revision="cherish" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901_" remote="ghub" revision="16" clone-depth="1" />
@@ -22,15 +22,15 @@
 <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
 
 <!-- system_netd -->
-<remove-project name="system_netd" />
+<remove-project name="android_system_netd" />
 <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
 
  <!-- system_bpf -->
-<remove-project name="system_bpf" />
+<remove-project name="android_system_bpf" />
 <project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
 
 <!-- device_qcom_sepolicy_vndr -->
-<remove-project name="device_qcom_sepolicy_vndr" />
+<remove-project name="android_device_qcom_sepolicy_vndr" />
 <project path="device/qcom/sepolicy_vndr/legacy-um" name="shravansayz/android_device_qcom_sepolicy_vndr" remote="ghub" revision="bka-legacy-um" />
  	
  <!-- android_hardware_qcom_audio -->
