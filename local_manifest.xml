@@ -29,6 +29,10 @@
  <remove-project name="system_bpf" />
  <project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
 
+ <!-- hardware_interfaces -->
+ <remove-project name="LineageOS/android_hardware_interfaces" />
+ <project path="hardware/interfaces" name="Evolution-X/hardware_interfaces" remote="ghub" revision="vic" />
+ 
  <!-- device_qcom_sepolicy_vndr -->
  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
  <project path="device/qcom/sepolicy_vndr/legacy-um" name="shravansayz/android_device_qcom_sepolicy_vndr" remote="ghub" revision="bka-legacy-um" />
