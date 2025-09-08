@@ -31,7 +31,7 @@
 
  <!-- hardware_interfaces -->
  <remove-project name="LineageOS/android_hardware_interfaces" />
- <project path="hardware/interfaces" name="Evolution-X/hardware_interfaces" remote="ghub" revision="vic" />
+ <project path="hardware/interfaces" name="shravansayz/android_hardware_interfaces" remote="ghub" revision="lineage-23.0" />
  
  <!-- device_qcom_sepolicy_vndr -->
  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
