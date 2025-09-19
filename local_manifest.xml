@@ -20,6 +20,10 @@
  <!-- packages_modules_Connectivity -->
 <remove-project name="android_packages_modules_Connectivity" />
 <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
+ 
+ <!-- hardware_interfaces -->
+ <remove-project name="LineageOS/android_hardware_interfaces" />
+ <project path="hardware/interfaces" name="shravansayz/android_hardware_interfaces" remote="ghub" revision="lineage-23.0" />
 
 <!-- system_netd -->
 <remove-project name="LineageOS/android_system_netd" />
