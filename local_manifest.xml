@@ -33,9 +33,8 @@
  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
  <project path="device/qcom/sepolicy_vndr/legacy-um" name="shravansayz/android_device_qcom_sepolicy_vndr" remote="ghub" revision="bka-legacy-um" />
  
- <!-- android_hardware_qcom_audio -->
- <remove-project name="android_hardware_qcom_audio" />
- <project path="hardware/qcom-caf/sdm845/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sdm845" />
- <project path="hardware/qcom-caf/sm8350/audio" name="israfilbd/android_hardware_qcom_audio" remote="ghub" revision="lineage-22.2-caf-sm8350" />
+<!-- android_hardware_lineage_compat -->
+<remove-project name="LineageOS/android_hardware_lineage_compat" />
+<project path="hardware/lineage/compat" name="hzosprj/android_hardware_lineage_compat" remote="ghub" revision="16" />
 
  </manifest>
