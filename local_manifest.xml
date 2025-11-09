@@ -22,7 +22,7 @@
  <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
 
  <!-- system_netd -->
- <remove-project name="system_netd" />
+ <remove-project name="LineageOS/android_system_netd" />
  <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
 
  <!-- system_bpf -->
