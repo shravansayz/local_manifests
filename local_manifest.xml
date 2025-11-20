@@ -21,8 +21,6 @@
  <remove-project name="PixelOS-AOSP/android_packages_modules_Connectivity" />
  <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
 
- <!-- system_netd -->
- <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
 
  <!-- system_bpf -->
  <remove-project name="PixelOS-AOSP/android_system_bpf" />
