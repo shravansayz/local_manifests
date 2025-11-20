@@ -6,22 +6,35 @@
                 fetch="https://gitlab.com" />
  
  <!-- Device Trees --> 
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="15-pixel" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901_" remote="ghub" revision="pixel" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901_15" remote="glab" revision="15" clone-depth="1" />
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901_" remote="ghub" revision="16" clone-depth="1" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/sdm710" name="shravansayz/kernel_realme_sdm710" remote="ghub" revision="15" clone-depth="1" />
+ <project path="kernel/realme/sdm710" name="shravansayz/android_kernel_realme_sdm710_" remote="ghub" revision="16.0" clone-depth="1" />
 
  <!-- Proton clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
+
+ <!-- packages_modules_Connectivity -->
+ <remove-project name="PixelOS-AOSP/android_packages_modules_Connectivity" />
+ <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
+
+ <!-- system_netd -->
+ <remove-project name="LineageOS/android_system_netd" />
+ <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
+
+ <!-- system_bpf -->
+ <remove-project name="PixelOS-AOSP/android_system_bpf" />
+ <project path="system/bpf" name="ij-israfil/system_bpf" remote="ghub" revision="16" />
+
+ <!-- device_qcom_sepolicy_vndr -->
+ <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+ <project path="device/qcom/sepolicy_vndr/legacy-um" name="shravansayz/android_device_qcom_sepolicy_vndr" remote="ghub" revision="bka-legacy-um" />
  
- <!-- frameworks_base -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="shravansayz/frameworks_base_pos" remote="ghub" revision="fifteen" clone-depth="1" /> 
- 
- <!-- sign_keys -->
- <project path="vendor/aosp/signing" name="shravansayz/private_keys" remote="ghub" revision="pixel" />
+<!-- android_hardware_lineage_compat -->
+<remove-project name="LineageOS/android_hardware_lineage_compat" />
+<project path="hardware/lineage/compat" name="hzosprj/android_hardware_lineage_compat" remote="ghub" revision="16" />
 
  </manifest>
