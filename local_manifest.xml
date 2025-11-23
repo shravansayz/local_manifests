@@ -21,7 +21,12 @@
  <remove-project name="PixelOS-AOSP/android_packages_modules_Connectivity" />
  <project path="packages/modules/Connectivity" name="ij-israfil/packages_modules_Connectivity" remote="ghub" revision="16" />
 
-<!-- system_netd -->
+<!-- hardware interface -->
+ <remove-project name="PixelOS-AOSP/android_hardware_interfaces" />
+ <project path="hardware/interfaces" name="shravansayz/android_hardware_interfaces_Pos" remote="ghub" revision="sixteen" />
+	
+	
+ <!-- system_netd -->
  <remove-project name="platform/system/netd" />
  <project path="system/netd" name="ij-israfil/system_netd" remote="ghub" revision="16" />
  
